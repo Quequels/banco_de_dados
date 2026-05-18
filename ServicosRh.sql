@@ -6,7 +6,7 @@ use db_servicosrh;
 
 -- criação de tabela
 CREATE TABLE colaboradores (
-	id_colaborador BIGINT AUTO_INCREMENT primary key,
+	id_colaborador BIGINT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(255) NOT NULL,
     departamento varchar(50),
